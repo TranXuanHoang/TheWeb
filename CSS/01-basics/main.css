@@ -40,26 +40,17 @@
   text-align: center;
 }
 
-.plan__list {
-  width: 90%;
-  margin: auto;
-  text-align: center;
-}
-
 .plan {
   background: #d5ffdc;
   text-align: center;
   padding: 1rem;
-  margin: 0.5rem;
-  display: inline-block;
-  width: 30%;
-  vertical-align: middle;
+  margin: 0.5rem 0;
+  width: 100%;
 }
 
 .plan--highlighted {
   background: #19b84c;
   color: white;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .plan__annotation {
@@ -94,6 +85,27 @@
 
 .plan__feature {
   margin: 0.5rem 0;
+}
+
+@media (min-width: 40rem) {
+  .plan__list {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .plan {
+    margin: 0.5rem;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    min-width: 13rem;
+    max-width: 25rem;
+  }
+
+  .plan--highlighted {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
 }
 
 #key-features {
