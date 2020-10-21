@@ -1,3 +1,15 @@
+/* Example of importing a font with @font-face */
+@font-face {
+  font-family: "AnonymousPro";
+  src: url("AnonymousPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AnonymousPro";
+  src: url("AnonymousPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
 main {
   padding-top: 2rem;
 }
@@ -53,9 +65,6 @@ main {
   font-size: 1.2rem;
   color: #0e4f1f;
   background: white;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: italic;
 }
 
 .clearfix {
