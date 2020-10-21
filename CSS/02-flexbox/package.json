@@ -1,0 +1,14 @@
+{
+  "name": "02-flexbox",
+  "version": "1.0.0",
+  "description": "A simple web app that demonstrates CSS flexible box layout",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
