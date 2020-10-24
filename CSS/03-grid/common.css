@@ -55,4 +55,77 @@ header button:focus {
 
 main {
   margin-top: 4rem;
+  min-height: 85vh;
+}
+
+footer {
+  color: white;
+  background: rgba(30, 50, 70, 0.8);
+  width: 100%;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 20% 40% 40%;
+  grid-template-rows: 10rem 4rem 1rem;
+  grid-template-areas:
+    "brand resources developers"
+    "brand connect connect"
+    "copyright copyright copyright";
+}
+
+.footer__brand {
+  grid-area: brand;
+}
+
+.footer__resources {
+  grid-area: resources;
+}
+
+.footer__developers {
+  grid-area: developers;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #e07d43;
+}
+
+.footer__connect {
+  grid-area: connect;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__social-networks {
+  display: flex;
+}
+
+.footer__social-network-facebook,
+.footer__social-network-twitter,
+.footer__social-network-github {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: #e07d43;
+  margin: 0.2rem;
+}
+
+.footer__social-network-facebook:hover,
+.footer__social-network-twitter:hover,
+.footer__social-network-github:hover {
+  cursor: pointer;
+}
+
+.footer__copyright {
+  grid-area: copyright;
+  text-align: center;
 }
