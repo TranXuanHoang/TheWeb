@@ -1,0 +1,23 @@
+main {
+  display: grid;
+  grid-template-columns:
+    [left-sidebar-col] 15%
+    [main-content-col] 70%
+    [right-sidebar-col] 15% [right-sidebar-col-end];
+  grid-template-rows: auto;
+}
+
+.left-sidebar {
+  background: #2dd9f0;
+  padding: 0.5rem;
+}
+
+.main-content {
+  background: #f0f4f5;
+  padding: 1rem;
+}
+
+.right-sidebar {
+  background: #df7b0a;
+  padding: 0.5rem;
+}
