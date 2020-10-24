@@ -1,0 +1,15 @@
+{
+  "name": "03-grid",
+  "version": "1.0.0",
+  "description": "CSS Grid",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
