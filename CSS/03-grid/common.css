@@ -88,7 +88,7 @@ header button:not(#toggle-button) {
   border-radius: 15px;
 }
 
-header button:hover {
+header button:not(#toggle-button):hover {
   color: white;
   background: #e07d43;
   cursor: pointer;
