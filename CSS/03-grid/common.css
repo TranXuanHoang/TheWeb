@@ -129,3 +129,17 @@ footer a:hover {
   grid-area: copyright;
   text-align: center;
 }
+
+@media (max-width: 40rem) {
+  footer {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-auto-rows: minmax(1rem, auto);
+    grid-template-areas:
+      "brand"
+      "resources"
+      "developers"
+      "connect"
+      "copyright";
+  }
+}
