@@ -1,0 +1,59 @@
+.container {
+  margin: 2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 12rem));
+  grid-auto-flow: row;
+  justify-content: center;
+}
+
+.product {
+  max-width: 12rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  background: linear-gradient(to bottom right, rgb(131, 194, 236), rgb(235, 148, 35));
+}
+
+.product:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom right, rgb(150, 205, 241), rgb(236, 180, 106));
+}
+
+.product img {
+  max-width: 10rem;
+}
+
+@media (max-width: 40rem) {
+  .product img {
+    max-width: 8rem;
+  }
+}
+
+.product > p::first-letter {
+  font-size: 3rem;
+  color: #d02cf1;
+}
+
+.product__set {
+  display: flex;
+  justify-content: space-around;
+}
+
+.el1 {
+  grid-column: span 2;
+  max-width: 25rem;
+}
+
+.el2 {}
+
+.el3 {}
+
+.el4 {}
+
+.el5 {}
+
+.el6 {}
+
+.el7 {}
+
+.el8 {}
