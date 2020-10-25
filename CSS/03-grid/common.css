@@ -7,6 +7,15 @@ body {
   font-family: sans-serif;
 }
 
+.backdrop {
+  position: fixed;
+  z-index: 40;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(30, 50, 70, 0.3);
+  display: none;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -17,6 +26,42 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+header button#toggle-button {
+  display: none;
+}
+
+@media (max-width: 40rem) {
+  header button#toggle-button {
+    background: rgba(30, 50, 70, 0);
+    border: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  header button#toggle-button:focus {
+    outline: none;
+  }
+
+  header button#toggle-button span {
+    width: 100%;
+    height: 0.2rem;
+    background-color: white;
+  }
+
+  header button#toggle-button:focus span {
+    background-color: #e07d43;
+  }
+
+  header > nav {
+    display: none;
+  }
 }
 
 header a {
@@ -34,7 +79,7 @@ header a.active {
   color: #e07d43;
 }
 
-header button {
+header button:not(#toggle-button) {
   color: #e07d43;
   font-weight: bold;
   min-width: 5rem;
@@ -51,6 +96,111 @@ header button:hover {
 
 header button:focus {
   outline: none;
+}
+
+.mobile-nav {
+  background: rgba(245, 125, 55, 1);
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+  color: white;
+  /* display: grid; */
+  display: none;
+  grid-template-columns: 100%;
+  grid-template-rows: 3rem auto 4rem;
+  grid-template-areas: "mob-nav-top" "mob-nav-main" "mob-nav-bottom";
+}
+
+.mobile-nav__toggle-button {
+  grid-area: mob-nav-top;
+  background: rgba(245, 125, 55, 0);
+  border: none;
+  margin-left: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  cursor: pointer;
+  color: white;
+}
+
+.mobile-nav__toggle-button:focus {
+  outline: none;
+}
+
+.close {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+}
+.close:hover {
+  opacity: 0.6;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 3px;
+  background-color: red;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.mobile-nav__items {
+  grid-area: mob-nav-main;
+  align-self: center;
+  list-style: none;
+}
+
+.mobile-nav__items a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.mobile-nav__items a:hover,
+.mobile-nav__items a.active {
+  color: rgba(30, 50, 70, 0.8);
+}
+
+.mobile-nav__configs {
+  grid-area: mob-nav-bottom;
+  align-self: center;
+  justify-self: center;
+  padding: 0.5rem;
+}
+
+.mobile-nav__configs button {
+  background: rgba(30, 50, 70, 0.8);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  color: white;
+  cursor: pointer;
+}
+
+.mobile-nav__configs button:focus {
+  outline: none;
+}
+
+.mobile-nav__configs button:hover {
+  color: rgba(30, 50, 70, 0.8);
+  background: white;
 }
 
 main {
