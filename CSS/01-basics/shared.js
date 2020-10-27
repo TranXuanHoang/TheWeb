@@ -4,6 +4,7 @@ const modalNoButton = document.querySelector('.modal__action--negative')
 const selectPlanButtons = document.querySelectorAll('.plan button')
 const toggleButton = document.querySelector('.toggle-button')
 const mobileNav = document.querySelector('.mobile-nav')
+const ctaButton = document.querySelector('.main-nav__item--cta')
 
 for (let i = 0; i < selectPlanButtons.length; i++) {
   selectPlanButtons[i].addEventListener('click', () => {
@@ -47,4 +48,16 @@ toggleButton.addEventListener('click', () => {
   // Method 2: use 'classList.add'
   mobileNav.classList.add('open')
   backdrop.classList.add('open')
+})
+
+ctaButton.addEventListener('animationstart', event => {
+  console.log('Animation started', event)
+})
+
+ctaButton.addEventListener('animationend', event => {
+  console.log('Animation ended', event)
+})
+
+ctaButton.addEventListener('animationiteration', event => {
+  console.log('Animation iteration', event)
 })

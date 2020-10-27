@@ -17,6 +17,7 @@ Switch the source code to versions described below to view different implementat
 | Git Tag | Implementation |
 |---------|----------------|
 | [v1.0.0](https://github.com/TranXuanHoang/TheWeb/releases/tag/v1.0.0) | Create uHost website |
+| [v1-3.0.1](https://github.com/TranXuanHoang/TheWeb/releases/tag/v1-3.0.1) | A shared release of both `uHost` and [03-grid](../03-grid) websites |
 
 ## Run App
 

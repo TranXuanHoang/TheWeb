@@ -17,6 +17,7 @@ Switch the source code to versions described below to view different implementat
 | Git Tag | Implementation |
 |---------|----------------|
 | [v3.0.0](https://github.com/TranXuanHoang/TheWeb/releases/tag/v3.0.0) | Create a simple webpage demonstrating CSS grid |
+| [v1-3.0.1](https://github.com/TranXuanHoang/TheWeb/releases/tag/v1-3.0.1) | A shared release of both [01-basics](../01-basics) and `grid` websites |
 
 ## Run App
 
