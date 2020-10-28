@@ -29,36 +29,32 @@ body {
   box-sizing: border-box;
 }
 
-.sass-introduction {
+.sass-section {
   border: $border-default;
   background: lighten($color: map-get($colors, main), $amount: 72%);
   padding: $size-default * 2;
   text-align: center;
-  box-shadow: $size-tiny $size-tiny $size-tiny / 2 #ccc;
   width: $width;
   box-sizing: border-box;
-
-  p {
-    margin: 0;
-  }
 
   @media (min-width: 40rem) {
     width: 30rem;
   }
 }
 
-.sass-details {
-  border: $border-default;
-  background: lighten($color: map-get($colors, main), $amount: 72%);
-  padding: $size-default;
-  text-align: center;
-  margin: $size-default * 2 0;
-  width: $width;
-  box-sizing: border-box;
+.sass-introduction {
+  @extend .sass-section;
+  box-shadow: $size-tiny $size-tiny $size-tiny / 2 #ccc;
 
-  @media (min-width: 40rem) {
-    width: 30rem;
+  p {
+    margin: 0;
   }
+}
+
+.sass-details {
+  @extend .sass-section;
+  padding: $size-default;
+  margin: $size-default * 2 0;
 }
 
 .section-header {
