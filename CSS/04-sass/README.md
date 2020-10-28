@@ -20,6 +20,11 @@ Switch the source code to versions described below to view different implementat
 
 ## Run App
 
-* Install [`Dart SASS`](https://sass-lang.com/dart-sass) (see [installation instructions](https://sass-lang.com/install))
+* Install [`Dart SASS`](https://sass-lang.com/dart-sass) (see [installation instructions](https://sass-lang.com/install)). Then run `SASS` to compile `main.scss` to `main.css`
+
+  ```shell
+  sass --watch main.scss:main.css
+  ```
+
 * Install `Node.js` dependencies with `npm install`
 * Run app with `npm start`
