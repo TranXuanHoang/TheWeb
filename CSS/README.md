@@ -8,3 +8,4 @@ This directory includes sub-directories in which CSS are the main thing being us
 | [02-flexbox](./02-flexbox) | Example of CSS flexbox | `flexbox` |
 | [03-grid](./03-grid) | Example of CSS grid | `grid` |
 | [04-sass](./04-sass) | Introduction to [SASS](https://sass-lang.com/) | `SASS` |
+| [05-natours](./05-natours) | _Practice Project 1:_ Build a website providing nature tours for travelers | `Web Design` |
