@@ -9,6 +9,7 @@ The project uses the following 3rd-party [Node.js](https://nodejs.org/) package
 | Package | Type | Purpose |
 |---------|------|---------|
 | [sass](https://www.npmjs.com/package/sass) | `dev` | Compile `SASS` code (`.scss` files) to normal `CSS` code |
+| [live-server](https://www.npmjs.com/package/live-server) | `dev` | A little development server with live reload capability |
 
 ## Source Code
 

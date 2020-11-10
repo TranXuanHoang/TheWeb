@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch sass/main.scss css/style.css"
+    "compile:sass": "sass --watch sass/main.scss css/style.css",
+    "devserver": "live-server"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "live-server": "^1.2.1",
     "sass": "^1.29.0"
   }
 }
