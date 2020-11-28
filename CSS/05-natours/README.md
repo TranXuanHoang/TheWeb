@@ -2,9 +2,9 @@
 
 An example landing page for a website providing travel tours. This project uses [SASS](https://sass-lang.com/) language to write all styling code and then uses [Dart SASS compiler](https://sass-lang.com/dart-sass) to compile these `SASS` code into nomal `CSS` code which can be understood by web browsers.
 
-## Icons
+## Images and Icons
 
-This project uses an icon set which is made by [Linearicons](https://linearicons.com/).
+This project uses an icon set which is made by [Linearicons](https://linearicons.com/), images from [Unsplash](https://unsplash.com/).
 
 ## 3rd-Party Packages
 
