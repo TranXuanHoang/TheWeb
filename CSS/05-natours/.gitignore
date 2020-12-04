@@ -1,1 +1,5 @@
 **/*css.map
+**/*.comp.css
+**/*.concat.css
+**/*.prefix.css
+**/*.min.css
