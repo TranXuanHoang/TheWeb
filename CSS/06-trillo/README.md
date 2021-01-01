@@ -6,6 +6,12 @@
 
 An example landing page for an online hotel booking website. The main purpose of this project is to demonstrate how to use CSS flexbox to layout the web page UI, how to use `SVG` images and more. This project, same as the [05-natours](../05-natours) project, uses [SASS](https://sass-lang.com/) language to write all styling code and then uses [Dart SASS compiler](https://sass-lang.com/dart-sass) to compile the `SASS` code to nomal `CSS` which can be understood by the web browsers.
 
+## Media Resources and Icons
+
+This project uses
+
+* SVG icons from [IcoMoon](https://icomoon.io/)
+
 ## 3rd-Party Packages
 
 The project uses the following 3rd-party [Node.js](https://nodejs.org/) package
