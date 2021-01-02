@@ -10,7 +10,7 @@
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-grey-light-2);
+  border-bottom: 1px solid var(--color-grey-light-2);
 
   display: flex;
   justify-content: space-between;
@@ -34,5 +34,5 @@
 .hotel-view {
   background-color: #fff;
 
-  flex: 1;
+  flex: 1; // 1 means grow and occupy all available space
 }
