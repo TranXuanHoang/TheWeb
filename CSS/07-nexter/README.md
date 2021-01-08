@@ -1,16 +1,10 @@
-# Trillo
+# Nexter
 
 [![HTML5](https://img.shields.io/badge/HTML5--E34F26?style=flat-square&logo=HTML5)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-[![CSS3 Flexbox](https://img.shields.io/badge/CSS3-Flexbox-1572B6?style=flat-square&logo=CSS3)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
+[![CSS3 Grid](https://img.shields.io/badge/CSS3-Grid-1572B6?style=flat-square&logo=CSS3)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
 [![SASS](https://img.shields.io/badge/SASS--CC6699?style=flat-square&logo=SASS)](https://sass-lang.com/)
 
-An example landing page for an online hotel booking website. The main purpose of this project is to demonstrate how to use CSS flexbox to layout the web page UI, how to use `SVG` images and more. This project, same as the [05-natours](../05-natours) project, uses [SASS](https://sass-lang.com/) language to write all styling code and then uses [Dart SASS compiler](https://sass-lang.com/dart-sass) to compile the `SASS` code to nomal `CSS` which can be understood by the web browsers.
-
-## Media Resources and Icons
-
-This project uses
-
-* SVG icons from [IcoMoon](https://icomoon.io/)
+An example home page for a real estate company. The main purpose of this project is to demonstrate how to use `CSS grid` to layout the web page UI. This project, same as the [05-natours](../05-natours) and [06-trillo](../06-trillo) projects, uses [SASS](https://sass-lang.com/) language to write all styling code and then uses [Dart SASS compiler](https://sass-lang.com/dart-sass) to compile the `SASS` code to nomal `CSS` which can be understood by the web browsers.
 
 ## 3rd-Party Packages
 
@@ -20,7 +14,6 @@ The project uses the following 3rd-party [Node.js](https://nodejs.org/) package
 |---------|------|---------|
 | [sass](https://www.npmjs.com/package/sass) | `dev` | Compile `SASS` code (`.scss` files) to normal `CSS` code |
 | [live-server](https://www.npmjs.com/package/live-server) | `dev` | A little development server with live reload capability |
-| [concat](https://www.npmjs.com/package/concat) | `dev` | Concatenate multiple files |
 | [autoprefixer](https://www.npmjs.com/package/autoprefixer) | `dev` | Parse CSS and add vendor prefixes to CSS rules using values from [Can I Use](https://caniuse.com/) |
 | [postcss](https://www.npmjs.com/package/postcss) | `dev` | A tool named `PostCSS` which is used in combination with other plugins for transforming CSS styles. This project use `PostCSS` and `PostCSS CLI` to run `autoprefixer` plugin |
 | [postcss-cli](https://www.npmjs.com/package/postcss-cli) | `dev` | CLI for running `PostCSS` |
@@ -32,7 +25,7 @@ Switch the source code to versions described below to view different implementat
 
 | Git Tag | Implementation |
 |---------|----------------|
-| [v6.0.0](https://github.com/TranXuanHoang/TheWeb/releases/tag/v6.0.0) | Create a landing page for an online hotel booking website using `CSS flex box` and [SASS](https://sass-lang.com/) |
+| [v7.0.0](https://github.com/TranXuanHoang/TheWeb/releases/tag/v7.0.0) | Make a real estate home page using `CSS grid` and [SASS](https://sass-lang.com/) |
 
 ## Run App
 

@@ -10,3 +10,4 @@ This directory includes sub-directories in which CSS are the main thing being us
 | [04-sass](./04-sass) | Introduction to [SASS](https://sass-lang.com/) | `SASS` |
 | [05-natours](./05-natours) | _Practice Project 1:_ Build a website providing nature tours for travelers | `Web Design` `BEM` [`SASS 7-1 Pattern`](https://sass-guidelin.es/#the-7-1-pattern) |
 | [06-trillo](./06-trillo) | _Practice Project 2:_ Buid a landing page for a hotel booking website with `CSS flexbox` | `flexbox` |
+| [07-nexter](./07-nexter) | _Practice Project 3:_ Make a home page for a real estate company while using `CSS grid` to layout its contents | `grid` |
